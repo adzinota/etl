@@ -1,0 +1,23 @@
+dag_1:
+    filename: 'ft_balance_f'
+    dag_id: 'etl_ft_balance_f'
+
+dag_2:
+    filename: 'ft_posting_f'
+    dag_id: 'etl_ft_posting_f'
+
+dag_3:
+    filename: 'md_account_d'
+    dag_id: 'etl_md_account_d'
+
+dag_4:
+    filename: 'md_currency_d'
+    dag_id: 'etl_md_currency_d'
+
+dag_5:
+    filename: 'md_exchange_rate_d'
+    dag_id: 'etl_md_exchange_rate_d'
+
+dag_6:
+    filename: 'md_ledger_account_s'
+    dag_id: 'etl_md_ledger_account_s'
