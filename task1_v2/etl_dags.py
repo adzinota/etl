@@ -112,7 +112,7 @@ def transform_2(name_df):
 # Загрузка обработанных датафреймов в базу данных
 @task(task_id='load')
 def load(table_name):
-    metadata_obj = MetaData(schema = 'ds2')
+    metadata_obj = MetaData(schema = 'ds')
     table = Table(table_name, metadata_obj, autoload_with=CONNECTION)
     
     df = pd.read_csv(f'{EXPORT_PATH}/{table_name}.csv', keep_default_na=False)
