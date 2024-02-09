@@ -109,5 +109,5 @@ drop table if exists DS.MD_EXCHANGE_RATE_D cascade;
 drop table if exists DS.MD_LEDGER_ACCOUNT_S cascade;
 drop schema DS;
 
-drop table if exists LOGS.LOGS.LOGS_ETL cascade;
+drop table if exists LOGS.LOGS_ETL cascade;
 drop schema LOGS;
