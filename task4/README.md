@@ -1,4 +1,4 @@
-[Видео](https://disk.yandex.ru/i/kKOkC8c6IzoK6w)
+[Видео](https://disk.yandex.ru/i/yujqoPatlAClcg)
 
 Задание №2
 
